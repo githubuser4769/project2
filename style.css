@@ -119,3 +119,39 @@
         font-size: 12px;
         font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
     }
+@media(max-width:460px)  {
+        h1{
+            font-size: 1.5rem;
+        }
+        h2{
+            font-size: 2rem;
+        }
+        body{
+           
+            margin: 0px;
+           text-align: center;
+        }
+        .intro{
+            width: auto;
+            padding: 0px 10px;
+        }
+        .parent{
+            display: flex;
+            flex-direction: column;   
+            
+        }
+        
+        .text>h3{
+            margin-left: 25%;
+        }
+        .text>p{
+            
+            margin-left: 25%;
+        }
+        .bottom-container>a{
+            color: #11999e;
+            padding: 0pc 10px;
+        }
+    
+           
+    } 
