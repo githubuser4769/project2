@@ -1,0 +1,121 @@
+    @font-face {
+        font-family: 'customfont';
+        src: url(./PublicPixel-z84yD.ttf);
+    }
+    body{
+        margin: 0px;
+        text-align: center;
+    }
+    .top-container{
+        background-color: #e4f9f5;
+        display: block;
+        height: 500px;
+        
+    }
+    h1{
+        font-family: 'customfont',sans-serif;
+        margin: 0px;
+        padding-top: 100px;
+        color: 
+        #11999e;
+        font-size: 2.5rem;
+    }
+    h2{
+
+        font-family: 'Montserrat', sans-serif;
+        font-size: 40px;
+        margin: 50px;
+        color:  #66bfbf;
+    }
+
+
+    .pro{
+        text-decoration: underline;
+        color: #33aeae;
+    }
+    div {
+        display: block;
+    }
+
+    .middle-container{
+     margin: 100px 0px;
+    }
+    .profile-pic{
+
+        height: 200px;
+        border-radius: 100px;
+        
+    }
+    .intro{
+        
+        width: 30%;
+        margin: auto;
+        text-align: center;
+    }
+    p{  font-family: Verdana, Geneva, Tahoma, sans-serif;
+        line-height:2 ;
+        
+    }
+    /*skills*/
+    .parent img{
+        width: 180px;
+       height: 200px;
+    }
+    .parent{
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+        row-gap: 50px;
+        padding: 20px 50px 20px 0px;
+    }
+    .parent>div{
+        margin: auto;
+        padding: 0px;
+    }
+    h3{
+        font-family: sans-serif;
+        color:  #66bfbf;
+        font-weight: bold;
+    }
+    .text>h3{
+        text-align: left;
+    }
+    .text>p{
+        text-align: left;
+        width: 70%;
+    }
+    hr{
+        margin: 100px;
+    
+    }
+    /*conatct me*/
+    .contact-me>p{
+        width: 60%;
+        margin: auto;
+        padding: 40px 0px;
+        text-align: center;
+    }
+    button{
+        background-color: #11999e;
+        border-radius: 10px;
+        color: white;
+        text-decoration: solid;
+        padding: 15px 20px;
+        font-family: 'customfont';
+        border: 0px;
+    }
+    /*footer*/
+    .bottom-container {
+        background-color: #66bfbf;
+        padding: 50px 0 20px;
+    }
+    .bottom-container>a{
+        color: #11999e;
+        padding: 0pc 30px;
+    }
+    .bottom-container>p{
+        color: white;
+        padding: 30px;
+        font-size: 12px;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    }
